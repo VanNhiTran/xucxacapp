@@ -62,7 +62,7 @@ const mapDipatchToProps = (dispatch) => {
   return {
     datCuoc: (taiXiu) => {
       let action = {
-        type: "DAT__CUOC",
+        type: "DAT_CUOC",
         taiXiu,
       };
       dispatch(action);
